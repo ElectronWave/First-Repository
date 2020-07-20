@@ -16,7 +16,7 @@ Rectangle::Rectangle(int x, int y) {
 
 void setup() {
   // Instantiates the Rectangle class
-  Rectangle rect(3,6);
+  Rectangle rect(5,20);
   // Calls the area() function within the class
   int area = rect.area();
   Serial.begin(9600);
